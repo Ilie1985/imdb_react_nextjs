@@ -20,7 +20,7 @@ export default async function Home({ searchParams }) {
   console.log(results);
   return (
     <div className="">
-      <Results results={results}  />
+      <Results results={results} />
     </div>
   );
 }
